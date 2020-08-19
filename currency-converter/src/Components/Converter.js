@@ -42,7 +42,7 @@ class Converter extends React.Component {
 	};
 
 	where() {
-		const money = Object.keys(this.state.rates);
+        const money = Object.keys(this.state.rates);
 
 		return (
 			<select>
